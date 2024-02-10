@@ -1,0 +1,76 @@
+.url-shorten-container {
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.url-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.shorten-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.shortened-url-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.shortened-url-label {
+  font-size: 18px;
+}
+
+.shortened-url {
+  color: #007bff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.shortened-url:hover {
+  text-decoration: underline;
+}
+
+.error {
+  color: red;
+  padding: 10px;
+}
+
+.copy {
+  display: flex;
+  color: #273144;
+  background: #e8ebf2;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.copy:hover {
+  background: #caccd1;
+}
